@@ -23,7 +23,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "framework7": "^5.7.5",
-    "opn": "^6.0.0",
+    "open": "^7.0.4",
     "terminal-link": "^2.1.1"
   }
 }

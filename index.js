@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const fs = require('fs');
-const opn = require('opn');
+const open = require('open');
 const terminalLink = require('terminal-link');
 
 app.use('/', express.static(__dirname + '/src'));
@@ -19,4 +19,4 @@ const link = terminalLink('klicken Sie hier...', 'https://localhost:666/');
 app.listen(666, function () {
     console.log('Die Webseite sollte sich nun automatisch auf machen \n Falls nicht, ' + link);
 });
-opn('http://localhost:666/');
+open('http://localhost:666/');
