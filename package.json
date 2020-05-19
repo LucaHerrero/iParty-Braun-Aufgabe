@@ -3,11 +3,7 @@
   "version": "1.0.0",
   "description": "Ein Projekt der Schule",
   "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
   "repository": {
