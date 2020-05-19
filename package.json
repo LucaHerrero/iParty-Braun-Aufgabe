@@ -1,0 +1,29 @@
+{
+  "name": "iparty-braun-aufgabe",
+  "version": "1.0.0",
+  "description": "Ein Projekt der Schule",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucaHerrero/iParty-Braun-Aufgabe.git"
+  },
+  "author": "Luca Herrero Marcos",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/LucaHerrero/iParty-Braun-Aufgabe/issues"
+  },
+  "homepage": "https://github.com/LucaHerrero/iParty-Braun-Aufgabe#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "framework7": "^5.7.5",
+    "opn": "^6.0.0",
+    "terminal-link": "^2.1.1"
+  }
+}
