@@ -6,15 +6,15 @@ Zu aller erst benötigt meine Webseite [Node.js](https://nodejs.org/) um zu lauf
 
 Ist NodeJS installiert, müssen wir erstmal alle wichtigen Packete installieren
 
-```properties
- cd iParty-Braun-Aufgabe
- npm install
+```sh
+$ cd iParty-Braun-Aufgabe
+$ npm install
 ```
 
 Ist das da oben erledigt, wollen wir die Webseite auch starten...
 
-```properties
- npm start
+```sh
+$ npm start
 ```
 
 ### Plugins
