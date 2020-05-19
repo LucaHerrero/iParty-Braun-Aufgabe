@@ -17,6 +17,6 @@ app.get('/src', function (req, res) {
 });
 const link = terminalLink('klicken Sie hier...', 'https://localhost:666/');
 app.listen(666, function () {
-    console.log('Die Webseite sollte sich nun automatisch auf machen \n Falls nicht, ' + link);
+    console.log('Die Webseite sollte sich nun automatisch auf machen \nFalls nicht, ' + link);
 });
 open('http://localhost:666/');
