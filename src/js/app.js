@@ -25,7 +25,6 @@ var app = new Framework7({
     dataType: 'json',
     timeout: 30000,
     success: function (data, status, xhr) {
-      console.log(data)
       for (let i of data) {
         $("#news-row").append(
           '<div class="card card-header-pic col-100 medium-45">' +
@@ -37,6 +36,6 @@ var app = new Framework7({
           '<div class="card-footer"><a href="#" class="link">Like</a><a href="#" class="link">Read more</a></div>' +
           '</div>'
         );
-      }
-    }
+      };
+    };
   });
