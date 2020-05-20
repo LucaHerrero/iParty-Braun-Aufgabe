@@ -16,6 +16,7 @@ var figlet = require('figlet');
 app.use('/', express.static(__dirname + '/src'));
 app.use('/js', express.static(__dirname + '/node_modules/framework7/js'));
 app.use('/css', express.static(__dirname + '/node_modules/framework7/css'));
+app.use('/images', express.static(__dirname + '/Vorgaben/iParties/Bilder'));
 
 // Sagt Ihnen Apache .htaccess -> "DirectoryIndex" etwas? Genau so kann man sich das in etwa vorstellen.
 // Man kann halt nicht existente Unterverzeichnisse verlinken (so funktionieren auch diese "costum" 404 Seiten).

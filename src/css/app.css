@@ -1,3 +1,26 @@
-.iparties_logo{
+.iparties_logo {
     width: 100%;
+}
+
+.card-header-pic .card-header {
+    height: 60vw;
+    max-height: 30em;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    .card-header-pic .card-header {
+        height: 40vw;
+    }
+}
+
+.card-header-pic .card-content-padding .date {
+    color: #8e8e93;
+}
+
+#news-row {
+    justify-content: space-evenly !important;
+
 }
