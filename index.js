@@ -29,7 +29,7 @@ app.get('/test', function (req, res) {
 // Kurzes Beispiel rufen Sie "http://localhost:666/ich-liebe-kokain/", statt der Normalen localhost Seite auf, bekommen Sie trotzdem die Normale localhost Seite zu sehen.
 // Steuern Sie jedoch direkt Datein an werden Ihnen diese statt der Main Seite angezeigt.
 app.get('/*', function (req, res) {
-    fs.readFile('src/index.html', function(err, data) {
+    fs.readFile(__dirname + '/src/index.html', function(err, data) {
         res.writeHead(200, {'Content-Type': 'text/html'});
         res.write(data);
         return res.send();
