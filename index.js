@@ -65,14 +65,14 @@ app.get('/*', function (req, res) {
     });
 });
 
-//console.clear();
+console.clear();
 // Dieser Part starter nun den Server den wir eben etwas konfiguriert haben...
 app.listen(666, function () {
     // Die Terminal Link funktion ist nur dafür da einen Link im Terminal Fenster bereit zu stellen, damit das alles etwas schöner wirkt.
     console.log('Die Webseite sollte sich nun automatisch auf machen \nFalls nicht, ' + terminalLink('klicken Sie hier...', 'https://localhost:666/'));
 });
 // Weil wir natürlich nicht in der Steinzeit leben, sollte dieser Befehl AUTOMATISCH ein Browserfenster öffnen.
-//open('http://localhost:666/');
+open('http://localhost:666/');
 
 // Den Part einfach ignorieren...
 figlet('iParties', function (err, data) {
