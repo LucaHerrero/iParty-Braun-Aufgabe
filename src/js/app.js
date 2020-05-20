@@ -13,12 +13,13 @@ var app = new Framework7({
     ],
   });
   
+  // Dom7 ist das gleiche wie jQuery... und es ist schon in Framework7 implementiert...
   const $ = Dom7;
   var mainView = app.views.create('.view-main');
 
-
-  // Man könnte noch Events wie Error oder so einbauen aber das wäre glaube etwas too much
-  // Im normalerweise werden diese Daten von einer Datenbank geladen... in diesen Fall tun wir eindach so als wäre die news.json die Ausgabe einer Datenbank abfrage
+  /* Man könnte noch Events wie Error oder so einbauen aber das wäre glaube etwas too much
+     Im normalerweise werden diese Daten von einer Datenbank geladen... in diesen Fall tun wir eindach so als wäre die news.json die Ausgabe einer Datenbank abfrage
+     Läd den Inhalt des News Bereichs aus einer Json datei */
   app.request({
     url: '/js/news.json',
     method: 'GET',

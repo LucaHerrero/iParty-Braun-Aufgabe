@@ -5,29 +5,29 @@ const app = express();
 const fs = require('fs');
 // Dieses Packet dient einzig und allein dazu einen Link in Ihrem Browser zu öffnen.
 const open = require('open');
-// Dieses Paket dient dazu, falls das "open" Paket versagt, dass Sie in Ihrem Terminal auf ein Link klicken können...
-// Und nicht wie Steinzeit Menschen es mühsam abtippen müssen.
+/* Dieses Paket dient dazu, falls das "open" Paket versagt, dass Sie in Ihrem Terminal auf ein Link klicken können...
+   Und nicht wie Steinzeit Menschen es mühsam abtippen müssen. */
 const terminalLink = require('terminal-link');
 // Man brauchts nicht, aber ich fands lustig
 var figlet = require('figlet');
 
-// Weiterleitung und Fregabe der benötigten Verzeichnisse von Ihrem PC.
-// Mit dieser Methode kann man z.B. Verzeichnisse verlinken die es garnicht gibt.
+/* Weiterleitung und Fregabe der benötigten Verzeichnisse von Ihrem PC.
+   Mit dieser Methode kann man z.B. Verzeichnisse verlinken die es garnicht gibt. */
 app.use('/', express.static(__dirname + '/src'));
 app.use('/js', express.static(__dirname + '/node_modules/framework7/js'));
 app.use('/css', express.static(__dirname + '/node_modules/framework7/css'));
 app.use('/images', express.static(__dirname + '/Vorgaben/iParties/Bilder'));
 
-// Sagt Ihnen Apache .htaccess -> "DirectoryIndex" etwas? Genau so kann man sich das in etwa vorstellen.
-// Man kann halt nicht existente Unterverzeichnisse verlinken (so funktionieren auch diese "costum" 404 Seiten).
-// Im ersten Abschnitt müssen wir jedoch jede Seite definieren die ein eigenes nicht existente Unterverzeichis haben soll.
-// In diesem Beispiel benutzt für eine Funktion, für das versenden von Mails.
+/* Sagt Ihnen Apache .htaccess -> "DirectoryIndex" etwas? Genau so kann man sich das in etwa vorstellen.
+   Man kann halt nicht existente Unterverzeichnisse verlinken (so funktionieren auch diese "costum" 404 Seiten).
+   Im ersten Abschnitt müssen wir jedoch jede Seite definieren die ein eigenes nicht existente Unterverzeichis haben soll.
+   In diesem Beispiel benutzt für eine Funktion, für das versenden von Mails. */
 app.get('/test', function (req, res) {
     res.send('Mail gesendet!');
 });
-// Hier werden alle Unterverzeichnisse, außer das oben genannte auf die Main index.html datei verlinkt, egal was sie aufrufen Sie kommen immer nur zur Startseite...
-// Kurzes Beispiel rufen Sie "http://localhost:666/ich-liebe-kokain/", statt der Normalen localhost Seite auf, bekommen Sie trotzdem die Normale localhost Seite zu sehen.
-// Steuern Sie jedoch direkt Datein an werden Ihnen diese statt der Main Seite angezeigt.
+/* Hier werden alle Unterverzeichnisse, außer das oben genannte auf die Main index.html datei verlinkt, egal was sie aufrufen Sie kommen immer nur zur Startseite...
+   Kurzes Beispiel rufen Sie "http://localhost:666/ich-liebe-kokain/", statt der Normalen localhost Seite auf, bekommen Sie trotzdem die Normale localhost Seite zu sehen.
+   Steuern Sie jedoch direkt Datein an werden Ihnen diese statt der Main Seite angezeigt. */
 app.get('/*', function (req, res) {
     fs.readFile(__dirname + '/src/index.html', function(err, data) {
         res.writeHead(200, {'Content-Type': 'text/html'});
