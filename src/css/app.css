@@ -16,6 +16,12 @@
     }
 }
 
+.card-header {
+    font-size: 25px;
+    font-weight: 500;
+    text-shadow: 0px 0px 20px rgba(0,0,0,1);
+}
+
 .card-header-pic .card-content-padding .date {
     color: #8e8e93;
 }
@@ -24,3 +30,16 @@
     justify-content: space-evenly !important;
 
 }
+
+.swiper-slide {
+    width: auto !important;
+    margin: 10px;
+}
+
+.impImages{
+    height: 150px;
+}
+.swiper-pagination{
+    bottom: -3px !important;
+}
+
