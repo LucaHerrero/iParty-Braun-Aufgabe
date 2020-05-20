@@ -20,8 +20,9 @@ app.use('/css', express.static(__dirname + '/node_modules/framework7/css'));
 app.use('/images', express.static(__dirname + '/Vorgaben/iParties/Bilder'));
 
 /* Mir war's kurzgesagt zu anstrengend alle einzelnen Bilder in die Seite einzufügen.
-   Also hab ich kurz diese API geschrieben, welche vordefinierte Datei Pfade als im JSON Format ausgibt 😅
-   Wieso Vordefiniert? Damit man bestimmen kann, welche Datein im Browser gelistet werden können. */
+   Also hab ich kurz diese API geschrieben, welche vordefinierte Dateipfade scannt und die Dateinamen im JSON Format ausgibt 😅
+   Wieso Vordefiniert? Damit man bestimmen kann, welche Datein im Browser gelistet werden können.
+   Und ja es ist Hardcore unnötig aber egal 😂 */
 const dirPaths = [
     'Vorgaben/iParties/Bilder/Impressionen'
 ];
