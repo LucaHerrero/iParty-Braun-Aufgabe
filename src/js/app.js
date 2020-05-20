@@ -37,5 +37,5 @@ var app = new Framework7({
           '</div>'
         );
       };
-    };
+    }
   });
