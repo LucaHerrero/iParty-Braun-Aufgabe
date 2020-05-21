@@ -13,6 +13,11 @@ const routes = [{
         }
     },
     {
+        path: '/about',
+        url: '/pages/about.html',
+        name: 'about',
+    },
+    {
         path: '/contact',
         url: '/pages/contact.html',
         name: 'contact',
