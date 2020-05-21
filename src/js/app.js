@@ -5,10 +5,12 @@ var app = new Framework7({
   // App Name
   name: 'iParties',
   // Unterseiten Pfade
-  routes: [{
-    path: '/about/',
-    url: 'about.html',
-  }, ],
+  routes: routes,
+  view: {
+    pushState:true,
+    pushStateRoot: 'http://localhost:666',
+    pushStateSeparator: ""
+  }
 });
 
 // Dom7 ist das gleiche wie jQuery... und es ist schon in Framework7 implementiert...

@@ -50,9 +50,10 @@ app.get('/fileTree/pathID/:id/fileURL/:urlid', function (req, res) {
    Man kann halt nicht existente Unterverzeichnisse verlinken (so funktionieren auch diese "costum" 404 Seiten).
    Im ersten Abschnitt müssen wir jedoch jede Seite definieren die ein eigenes nicht existente Unterverzeichis haben soll.
    In diesem Beispiel benutzt für eine Funktion, für das versenden von Mails. */
-app.get('/test', function (req, res) {
-    res.send('Mail gesendet!');
+app.get('/ich-liebe-kokain', function (req, res) {
+    res.end('Ich auch!\nJetzt sind wir Kokain-Buddies :D');
 });
+
 /* Hier werden alle Unterverzeichnisse, außer das oben genannte auf die Main index.html datei verlinkt, egal was sie aufrufen Sie kommen immer nur zur Startseite...
    Kurzes Beispiel rufen Sie "http://localhost:666/ich-liebe-kokain/", statt der Normalen localhost Seite auf, bekommen Sie trotzdem die Normale localhost Seite zu sehen.
    Steuern Sie jedoch direkt Datein an werden Ihnen diese statt der Main Seite angezeigt. */
@@ -61,8 +62,7 @@ app.get('/*', function (req, res) {
         res.writeHead(200, {
             'Content-Type': 'text/html'
         });
-        res.write(data);
-        return res.send();
+        return res.end(data);
     });
 });
 
