@@ -15,7 +15,6 @@ var app = new Framework7({
 
 // Dom7 ist das gleiche wie jQuery... und es ist schon in Framework7 implementiert...
 const $ = Dom7;
-var mainView = app.views.create('.view-main');
 
 function loadContentIndex() {
   app.request({
@@ -65,7 +64,9 @@ function loadContentIndex() {
     }
   });
 };
-loadContentIndex();
+if ($('#impressionImages').html().length == 0) {
+  loadContentIndex();
+}
 
 $('#servicesPopup').on('click', function () {
   let message4u = app.toast.create({

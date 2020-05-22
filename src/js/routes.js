@@ -9,7 +9,7 @@ const routes = [{
         name: 'home',
         on: {
             pageBeforeIn: function () {
-                if ($('#impressionImages').text().length == 0) {
+                if ($('#impressionImages').html().length === 0) {
                     loadContentIndex();
                 }
             }
