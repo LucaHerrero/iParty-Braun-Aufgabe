@@ -19,7 +19,7 @@
 .news-header-text {
     font-size: 25px;
     font-weight: 500;
-    text-shadow: 0px 0px 20px rgba(0,0,0,1);
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
 }
 
 .card-header-pic .card-content-padding .date {
@@ -36,10 +36,11 @@
     margin: 10px;
 }
 
-.impImages{
+.impImages {
     height: 150px;
 }
-.swiper-pagination{
+
+.swiper-pagination {
     bottom: -3px !important;
 }
 
@@ -51,10 +52,15 @@
 .adresse-icon {
     opacity: 0.5;
 }
+
 .adrText {
     text-align: left;
 }
 
 .introText {
     text-align: center;
+}
+
+.spacer {
+    margin-top: 80px;
 }

@@ -1,14 +1,13 @@
-[
-    {
-      "title": "Tanz aus den Mai",
-      "long_text": "Corona hin oder her, bei uns läuft 24/7 die Musik! Und du bist herzlichst eingeladen mit uns am 30.Mai.2020 bei Tanz aus den Mai mit zu machen und einmal wieder zu viel Geld in unsere Bar zu stecken.",
-      "image": "/images/News/TanzInDenMai.png",
-      "date":"20.05.2020"
-    },
-    {
-      "title": "Zurück in die Vergangenheit",
-      "long_text": "Nur die aktuellste Musik, frisch von der Schallplatte. Jeder Montag ist bei uns Urgesteinsmontag... Micheal Jackson, Beatles, oder ACDC. Du erkennst wir werden dir die Absolut neusten Trends bieten können.",
-      "image": "/images/News/events1.jpg",
-      "date": "19.09.2019"
-    }
-  ]
+[{
+    "title": "Tanz aus den Mai",
+    "long_text": "Corona hin oder her, bei uns läuft 24/7 die Musik! Und du bist herzlichst eingeladen mit uns am 30.Mai.2020 bei Tanz aus den Mai mit zu machen und einmal wieder zu viel Geld in unsere Bar zu stecken.",
+    "image": "/images/News/TanzInDenMai.png",
+    "date": "20.05.2020"
+  },
+  {
+    "title": "Zurück in die Vergangenheit",
+    "long_text": "Nur die aktuellste Musik, frisch von der Schallplatte. Jeder Montag ist bei uns Urgesteinsmontag... Micheal Jackson, Beatles, oder ACDC. Du erkennst wir werden dir die Absolut neusten Trends bieten können.",
+    "image": "/images/News/events1.jpg",
+    "date": "19.09.2019"
+  }
+]

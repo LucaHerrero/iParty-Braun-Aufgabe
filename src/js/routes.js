@@ -1,14 +1,17 @@
-var indexLoadBug = 0;
+const page404animal = [
+    "/images/icons/monkey1.svg",
+    "/images/icons/monkey2.svg",
+    "/images/icons/monkey3.svg"
+]
 const routes = [{
         path: '/',
         url: '/index.html',
         name: 'home',
         on: {
             pageBeforeIn: function () {
-                if (indexLoadBug == 0) {
+                if ($('#impressionImages').text().length == 0) {
                     loadContentIndex();
                 }
-                indexLoadBug++;
             }
         }
     },
@@ -30,5 +33,11 @@ const routes = [{
     {
         path: '(.*)',
         url: '/pages/404.html',
+        on: {
+            pageAfterIn: function () {
+                let randomNumber = Math.floor(Math.random() * 3);
+                $(".monkey404image").attr("src", page404animal[randomNumber]);
+            }
+        }
     },
 ];

@@ -66,3 +66,23 @@ function loadContentIndex() {
   });
 };
 loadContentIndex();
+
+$('#servicesPopup').on('click', function () {
+  let message4u = app.toast.create({
+    text: 'Ich wollte mal ein anderes Kozept ausprobieren...',
+    closeTimeout: 2000,
+  });
+  message4u.open();
+  app.request({
+    url: '/pages/services.html',
+    method: 'GET',
+    dataType: 'html',
+    timeout: 30000,
+    success: function (data, status, xhr) {
+      let popup = app.popup.create({
+        content: data
+      });
+      popup.open();
+    }
+  });
+})
