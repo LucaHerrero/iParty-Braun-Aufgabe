@@ -64,9 +64,6 @@ function loadContentIndex() {
     }
   });
 };
-if ($('#impressionImages').html().length == 0) {
-  loadContentIndex();
-}
 
 $('#servicesPopup').on('click', function () {
   let message4u = app.toast.create({

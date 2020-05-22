@@ -5,7 +5,7 @@ const page404animal = [
 ]
 const routes = [{
         path: '/',
-        url: '/index.html',
+        url: '/pages/main.html',
         name: 'home',
         on: {
             pageBeforeIn: function () {
