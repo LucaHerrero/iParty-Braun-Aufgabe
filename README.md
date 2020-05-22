@@ -29,5 +29,4 @@ Bei der Installation von der Webseite werden mehrere Pakete geladen:
 | Express.js | https://expressjs.com/de/ |
 | Open | https://www.npmjs.com/package/open |
 | terminal-link | https://www.npmjs.com/package/terminal-link |
-| sendmail | https://www.npmjs.com/package/sendmail |
 | fliglet | https://www.npmjs.com/package/figlet |
