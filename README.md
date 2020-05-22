@@ -1,6 +1,8 @@
 # iParty-Braun-Aufgabe
+## Bilder 
+![Vorschaubilder](https://i.ibb.co/HHs1CKk/Main.png)
 
-### Erster Schritt
+## Erster Schritt
 
 Zu aller erst benötigt meine Webseite [Node.js](https://nodejs.org/) um zu laufen. 
 
@@ -17,7 +19,7 @@ Ist das da oben erledigt, wollen wir die Webseite auch starten...
 $ npm start
 ```
 
-### Plugins
+## Plugins
 
 Bei der Installation von der Webseite werden mehrere Pakete geladen:
 

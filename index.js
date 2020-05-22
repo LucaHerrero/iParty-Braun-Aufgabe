@@ -10,7 +10,7 @@ const open = require('open');
    Und nicht wie Steinzeit Menschen es mühsam abtippen müssen. */
 const terminalLink = require('terminal-link');
 // Man brauchts nicht, aber ich fands lustig
-var figlet = require('figlet');
+const figlet = require('figlet');
 
 /* Weiterleitung und Fregabe der benötigten Verzeichnisse von Ihrem PC.
    Mit dieser Methode kann man z.B. Verzeichnisse verlinken die es garnicht gibt. */
