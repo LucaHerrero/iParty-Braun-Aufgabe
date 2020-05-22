@@ -6,7 +6,7 @@
 
 Zu aller erst benötigt meine Webseite [Node.js](https://nodejs.org/) um zu laufen. 
 
-Ist NodeJS installiert, müssen wir erstmal alle wichtigen Packete installieren
+Ist Node.js installiert, müssen wir erstmal alle wichtigen Packete installieren
 
 ```sh
 $ cd iParty-Braun-Aufgabe
