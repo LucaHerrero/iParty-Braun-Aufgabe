@@ -5,10 +5,12 @@
 ## Erster Schritt
 
 Zu aller erst benötigt meine Webseite [Node.js](https://nodejs.org/) um zu laufen. 
+*Wir empfehlen zusätzlich Git zu installieren*
 
 Ist Node.js installiert, müssen wir erstmal alle wichtigen Packete installieren
 
 ```sh
+$ git clone https://github.com/LucaHerrero/iParty-Braun-Aufgabe.git
 $ cd iParty-Braun-Aufgabe
 $ npm install
 ```
