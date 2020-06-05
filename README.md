@@ -36,3 +36,14 @@ Bei der Installation von der Webseite werden mehrere Pakete geladen:
 | Open | https://www.npmjs.com/package/open |
 | terminal-link | https://www.npmjs.com/package/terminal-link |
 | fliglet | https://www.npmjs.com/package/figlet |
+
+## Sponsoren
+
+<table>
+  <tr>
+    <td align="center" valign="middle">
+        <img width="160" height="160" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Pablo_Escobar_Mug.jpg/800px-Pablo_Escobar_Mug.jpg">
+    </td>
+    
+  </tr>
+</table>
