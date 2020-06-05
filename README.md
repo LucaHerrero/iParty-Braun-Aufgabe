@@ -39,7 +39,7 @@ Bei der Installation von der Webseite werden mehrere Pakete geladen:
 
 ## Sponsoren
 
-Wir bedanken uns viel mals an unserere Sponsoren, die dieses Projekt am Leben laufen lassen
+Wir bedanken uns viel mals an unserere Sponsoren, die dieses Projekt am Leben erhalten ❤
 
 <table>
   <tr>
