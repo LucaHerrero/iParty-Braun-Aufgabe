@@ -22,6 +22,9 @@ Ist das da oben erledigt, wollen wir die Webseite auch starten...
 $ npm start
 ```
 
+Wird im Anschluss in der Konsole das gezeigt ist alles gut gelaufen  :D
+![Vorschaubilder](https://lawyer.spickx.com/DMCA/carbon.svg)
+
 ## Plugins
 
 Bei der Installation von der Webseite werden mehrere Pakete geladen:
