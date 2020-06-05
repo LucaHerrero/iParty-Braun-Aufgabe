@@ -44,6 +44,11 @@ Bei der Installation von der Webseite werden mehrere Pakete geladen:
     <td align="center" valign="middle">
         <img width="160" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Pablo_Escobar_Mug.jpg/800px-Pablo_Escobar_Mug.jpg">
     </td>
-    
+    <td align="center" valign="middle">
+        <img width="160" src="https://rp-online.de/imgs/32/4/8/3/5/9/1/3/5/tok_e83798747f3c079acdf90cf5b0286cd5/w1377_h1500_x525_y438_RTR_2019-02-12T235740Z_804135970_RC17711359E0_RTRMADP_3_USA-MEXICO-EL-CHAPO-9d17d45645c38658.JPG">
+    </td>
+   <td align="center" valign="middle">
+        <img width="160" src="https://images.fineartamerica.com/images/artworkimages/medium/1/al-capone-scarface-mafia-crime-boss-20170628-wingsdomain-art-and-photography.jpg">
+    </td>  
   </tr>
 </table>
