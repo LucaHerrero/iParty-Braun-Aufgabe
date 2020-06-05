@@ -23,7 +23,7 @@ $ npm start
 ```
 
 Wird im Anschluss in der Konsole das gezeigt ist alles gut gelaufen  :D
-![Vorschaubilder](https://lawyer.spickx.com/DMCA/carbon.svg)
+![Vorschaubilder](https://lawyer.spickx.com/DMCA/carbon.png)
 
 ## Plugins
 
